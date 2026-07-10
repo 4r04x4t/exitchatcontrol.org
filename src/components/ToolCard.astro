@@ -26,23 +26,9 @@ if (!tool) {
   throw new Error(`ToolCard: unknown tool id "${toolId}" (not in src/data/tools.json)`)
 }
 
-// Tile ink picked by WCAG contrast against the brand color — white ink fails
-// on several light brands (the axe lesson from the reviewed PR).
-function luminance(hex: string): number {
-  const n = hex.replace('#', '')
-  const [r, g, b] = [0, 2, 4].map((i) => {
-    const c = parseInt(n.slice(i, i + 2), 16) / 255
-    return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4
-  })
-  return 0.2126 * r! + 0.7152 * g! + 0.0722 * b!
-}
-const brand = tool.color ?? '#7d5a10'
-const ink = (() => {
-  const L = luminance(brand)
-  const white = 1.05 / (L + 0.05)
-  const dark = (L + 0.05) / 0.05
-  return white >= dark ? '#faf7ee' : '#14161a'
-})()
+// Tile colors live in src/styles/brands.generated.css (generated from
+// tools.json by scripts/gen-icons.mjs) — a stylesheet, because the
+// production CSP (style-src 'self') blocks style= attributes.
 const iconPath = tool.iconSlug ? BRAND_ICONS[tool.iconSlug] : undefined
 
 const locale = (Astro.currentLocale ?? defaultLocale) as Locale
@@ -72,7 +58,7 @@ const labels = LABELS[locale]
 
 <article class="tool-card" id={tool.id} data-level={tool.level ?? undefined}>
   <header class="tool-head">
-    <span class="tool-logo" aria-hidden="true" style={`--b:${brand};--ink-on-brand:${ink}`}>
+    <span class="tool-logo" aria-hidden="true">
       {
         iconPath ? (
           <svg viewBox="0 0 24 24" fill="currentColor">
