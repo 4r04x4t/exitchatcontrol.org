@@ -2,7 +2,9 @@
 
 **Le guide complet et gratuit est ici 👉 https://exitchatcontrol.org. Partagez-le autour de vous, et surtout, faites migrer vos proches : la vie privée est un combat collectif.**
 
-Le 9 juillet 2026, le Parlement européen a laissé passer Chat Control. Concrètement, le scan de nos messages privés est désormais autorisé dans l'Union, au nom de la « protection des enfants ». Une majorité d'eurodéputés a pourtant voté contre le texte, mais à cause d'une règle de procédure, il aurait fallu une majorité absolue pour le rejeter. Elle n'a pas été atteinte. La surveillance de masse est passée par la fenêtre.
+Le 9 juillet 2026, le Parlement européen a laissé la machine Chat Control repartir. Une majorité d'eurodéputés a voté pour rejeter le texte (314 voix), mais la procédure de seconde lecture exigeait une majorité absolue de 361 voix : le rejet a échoué. Le Parlement a tout de même arraché un rempart : des amendements excluant les messageries chiffrées de bout en bout (Signal, WhatsApp, iMessage…) du champ du scan, adoptés à 369 et 362 voix. Le texte amendé repart maintenant au Conseil, qui a trois mois (jusqu'à début octobre) pour l'accepter ou ouvrir une conciliation.
+
+> **Mise à jour (10 juillet 2026), soyons précis, parce que la précision est notre camp.** À ce jour, **rien n'est en vigueur** : la base légale du scan « volontaire » a expiré le 3 avril 2026 après le rejet du Parlement du 26 mars (228 pour, 311 contre), et elle n'a pas été ressuscitée. Ce qui s'est joué le 9 juillet, c'est la tentative de la rétablir jusqu'en 2028, passée par une procédure qui transforme l'abstention en soutien. Et pendant ce temps, la version **obligatoire** (Chat Control 2.0, le règlement CSAR) reste en négociation : cinq trilogues ont déjà échoué, les discussions reprennent en septembre. La fenêtre pour s'équiper, c'est maintenant. Sources primaires (Parlement, Conseil, votes nominatifs) sur le guide.
 
 Depuis mes débuts, je défends trois choses simples : le peuple, la liberté et la vie privée. Alors voici, comme la dernière fois, un guide pour agir. Pas une dissertation : des étapes concrètes, dans l'ordre, du plus simple au plus avancé. Chacune vous protège un peu plus. Vous n'êtes pas obligé de tout faire d'un coup. Commencez par l'étape 1 aujourd'hui, le reste suivra.
 
@@ -65,7 +67,7 @@ Sur téléphone, la solution la plus solide est **GrapheneOS** (grapheneos.org),
 
 ## Étape 7 : Pour aller plus loin (avancé)
 
-Si vous voulez pousser la souveraineté au bout : utilisez **Tor** pour dissocier votre activité de votre adresse IP, hébergez vos propres services avec **YunoHost** ou **Umbrel**, faites tourner une **intelligence artificielle en local** (avec LM Studio ou Jan) au lieu d'envoyer vos pensées à ChatGPT, et pour les plus exposés, apprenez les règles d'anonymat. Tout est détaillé, pas à pas, dans le guide complet.
+Si vous voulez pousser la souveraineté au bout : utilisez **Tor** pour dissocier votre activité de votre adresse IP, hébergez vos propres services avec **YunoHost** ou **Umbrel**, faites tourner une **intelligence artificielle en local** (avec Ollama ou Jan, tous deux libres) au lieu d'envoyer vos pensées à ChatGPT, et pour les plus exposés, apprenez les règles d'anonymat. Tout est détaillé, pas à pas, dans le guide complet.
 
 ---
 
@@ -77,4 +79,4 @@ Le combat est aussi politique : soutenez les organisations qui s'y opposent et �
 
 **Le guide complet, avec chaque outil expliqué et installé pas à pas, du citoyen au lanceur d'alerte, est ici 👉 https://exitchatcontrol.org. Enregistrez-le, partagez-le, faites migrer vos proches.**
 
-*Cet article sera mis à jour selon l'évolution de la situation. En cas de suppression de mon compte, vous le retrouverez sur mon site personnel.*
+_Cet article sera mis à jour selon l'évolution de la situation. En cas de suppression de mon compte, vous le retrouverez sur mon site personnel._
