@@ -1,5 +1,3 @@
-## Eredeti leírás
-
 # Exit Chat Control
 
 A free, multilingual field guide to escape **Chat Control** and take back control of your digital privacy: encrypted messaging, email, VPN, DNS, 2FA, Linux, GrapheneOS, self-hosting, and more. Every tool is presented with **what it does**, **who it's for**, and **how to install it**.
