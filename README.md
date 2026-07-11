@@ -1,4 +1,9 @@
 ## Exit Chat Control (exitchatcontrol.org) magyar nyelven is
+
+Mótiváció a lokalizációval:
+egy beszélgetőtárs a sok közzűl megmutatta nekem az eredeti exitchatcontrol.org-ot mikor a francián, angolon és holland nyelven kívül (magyarul sem) nem volt más nyelven elérhető, mióta elkészült a magyar lokalizáció a német is elérhetővé vált a hivatalos oldalon de a magyar még vár magára.
+Hazai politikai szempontból: a jelenlegi kormánypárt (TISZA) EP képviselőinek nagy többsége is támogatja a Chat Control 1.0 bevezetését, ezért mindenáron a választópolgárokat és az állampolgárokat számára FONTOS informálni a valós történésekről és a döntések következményeiről, a Chat Controlról szóló (reddit megathread-en belül) további információkat  és beszélgetéseket itt lehet keresni: https://redlib.catsarch.com/r/hungary/comments/1uro7bs/chat_control_megathread/
+
 A nyelvi lokalizáció elsősorban a meglévő json (./src/i18n könyvtárban) és az mdx fájlok (./src/content/sections) használatával és azokból újak létrehozásával valósult meg angol (en fájlok/könyvtárak/részek) forrásból.
 
 Maga a fordítás és a lektorálás a Google Gemini nagy nyelvi model (LLM) használatával készült - figyelembevéve a magyar nyelvben érvényes szabályokat (pl. macskakaparás helyett az idézőjel használatát, elkerülni a gondolatjelet és más idegen nyelvből származó karaktereket magán a végterméken) továbbá kikerülve az ún. AI slop tartalom kiengedését, a nyelvi implementáláshoz szükséges módosítások - hogy valóban meg is jelenjen a magyar tartalom - a Kimi K2.7 Pro-val valósult meg. Gondosan ellenőrízve lett az eredmény További módosításokért kérem böngészd az eredeti alkotó(k) Github repositorját.
